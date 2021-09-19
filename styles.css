@@ -1,6 +1,13 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+body {
+  font-size:13px;
+}
+
+h1{
+  font-size:20px;
+}
 
 .container {
  overflow:hidden;
@@ -25,4 +32,5 @@ max-height:90%;
 .textsection {
   background-color:white;
   right:150px;
+  text-align: center;
 }
