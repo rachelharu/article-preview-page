@@ -13,7 +13,7 @@ h1{
 
 .container {
  overflow:hidden;
- width:900px;
+ width:700px;
  height:240px;
   border-width: 1px;
   border-style: solid;
@@ -27,8 +27,8 @@ height: 368px !important; */
 
 .textcol {
   background-color:white;
-  right:150px;
-  padding-left:30px;
+  /* right:150px;
+  padding-left:30px; */
 }
 
 
