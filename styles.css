@@ -3,10 +3,12 @@
 
 body {
   font-size:13px;
+  font-family:  'Manrope', sans-serif;
 }
 
 h1{
   font-size:20px;
+  font-weight: 700;
 }
 
 .container {
@@ -23,6 +25,13 @@ height: 368px !important; */
   padding: 0px;
 }
 
+.textcol {
+  background-color:white;
+  right:150px;
+  padding-left:30px;
+}
+
+
 .drawers {
 
 max-width:90%;
@@ -30,7 +39,7 @@ max-height:90%;
 }
 
 .textsection {
-  background-color:white;
-  right:150px;
-  text-align: center;
+
+  text-align: left;
+  font-weight: 500;
 }
