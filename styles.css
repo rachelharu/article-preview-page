@@ -21,3 +21,8 @@ height: 368px !important; */
 max-width:90%;
 max-height:90%;
 }
+
+.textsection {
+  background-color:white;
+  right:150px;
+}
