@@ -9,6 +9,11 @@ body {
 h1{
   font-size:20px;
   font-weight: 700;
+
+}
+
+h3{
+  font-size:15px;
 }
 
 .container {
@@ -17,6 +22,7 @@ h1{
  height:240px;
   border-width: 1px;
   border-style: solid;
+  margin-top:50px;
 }
 
 .col-sm {
@@ -27,8 +33,9 @@ height: 368px !important; */
 
 .textcol {
   background-color:white;
-  /* right:150px;
-  padding-left:30px; */
+   right:110px;
+   /* padding-left:30px;   */
+   margin-right: -50px !important;
 }
 
 
@@ -39,7 +46,9 @@ max-height:90%;
 }
 
 .textsection {
-
+  padding-top:25px;
+padding-left: 30px;
   text-align: left;
   font-weight: 500;
+
 }
