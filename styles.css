@@ -25,6 +25,15 @@ h3 {
   color: hsl(217, 19%, 35%);
 }
 
+button{
+  border: 0;
+  outline:0;
+}
+
+button:focus{
+  outline: 0 ;
+}
+
 .circle {
   z-index: 1;
   position: absolute;
@@ -40,13 +49,28 @@ h3 {
   left: 352px;
 }
 
+.circle:hover {
+  z-index: 1;
+  position: absolute;
+  float: right;
+  /* display: block; */
+  background: hsl(214, 17%, 51%);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 0;
+  right: 0px;
+  bottom: 58px;
+  left: 352px;
+}
+
+
 .share {
   z-index: 2;
   position: relative;
   margin-top: -35px;
   float: right;
 }
-
 
 
 .userprofile {
@@ -78,8 +102,7 @@ h3 {
 
 .textcol {
   background-color: white;
-  right: 110px;
-  /* padding-left:30px;   */
+  right: 90px;  /* 110px */
   margin-right: -50px !important;
 }
 
@@ -102,3 +125,6 @@ h3 {
 .date {
   color: hsl(212, 23%, 69%);
 }
+
+
+/* javascript button stylings */
