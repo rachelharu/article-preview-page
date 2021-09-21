@@ -8,6 +8,7 @@
 }
 
 body {
+  background-color: hsl(210, 46%, 95%);
   font-size: 13px;
   font-family: 'Manrope', sans-serif;
 }
@@ -20,16 +21,38 @@ h1 {
 
 h3 {
   font-size: 15px;
-  font-weight:700;
+  font-weight: 700;
   color: hsl(217, 19%, 35%);
 }
 
-.userprofile{
+.circle {
+  z-index: 1;
+  position: absolute;
+  float: right;
+  /* display: block; */
+  background: hsl(210, 46%, 95%);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 0;
+  right: 0px;
+  bottom: 54px;
+  left: 351px;
+}
+
+.share {
+  z-index: 2;
+  position: relative;
+  margin-top: -40px;
+  float: right;
+}
+
+.userprofile {
   padding-left: 50px;
   line-height: 1em;
 }
 
-.userimage{
+.userimage {
   width: 35px;
   border-radius: 25px;
   float: left;
@@ -40,9 +63,11 @@ h3 {
   width: 700px;
   height: 240px;
   border-width: 1px;
-  border-style: solid;
+  /* border-style: solid; */
   margin-top: 50px;
-  border-radius:10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 15px grey;
 }
 
 .col-sm {
@@ -72,6 +97,6 @@ h3 {
   color: hsl(214, 17%, 51%);
 }
 
-.date{
+.date {
   color: hsl(212, 23%, 69%);
 }
