@@ -20,7 +20,7 @@ h1 {
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
   color: hsl(217, 19%, 35%);
 }
@@ -36,20 +36,22 @@ h3 {
   width: 30px;
   margin: 0;
   right: 0px;
-  bottom: 54px;
-  left: 351px;
+  bottom: 58px;
+  left: 352px;
 }
 
 .share {
   z-index: 2;
   position: relative;
-  margin-top: -40px;
+  margin-top: -35px;
   float: right;
 }
 
+
+
 .userprofile {
   padding-left: 50px;
-  line-height: 1em;
+  line-height: 0.5em;
 }
 
 .userimage {
