@@ -24,7 +24,7 @@ h3 {
   color: hsl(217, 19%, 35%);
 }
 
-img{
+.userimage{
   width: 50px;
   border-radius: 25px;
   float: left;
