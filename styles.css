@@ -24,8 +24,13 @@ h3 {
   color: hsl(217, 19%, 35%);
 }
 
+.userprofile{
+  padding-left: 50px;
+  line-height: 1em;
+}
+
 .userimage{
-  width: 50px;
+  width: 35px;
   border-radius: 25px;
   float: left;
 }
