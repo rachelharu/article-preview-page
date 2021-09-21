@@ -15,10 +15,19 @@ body {
 h1 {
   font-size: 20px;
   font-weight: 700;
+  color: hsl(217, 19%, 35%);
 }
 
 h3 {
   font-size: 15px;
+  font-weight:700;
+  color: hsl(217, 19%, 35%);
+}
+
+img{
+  width: 50px;
+  border-radius: 25px;
+  float: left;
 }
 
 .container {
@@ -52,4 +61,12 @@ h3 {
   padding-left: 30px;
   text-align: left;
   font-weight: 500;
+}
+
+.maintext {
+  color: hsl(214, 17%, 51%);
+}
+
+.date{
+  color: hsl(212, 23%, 69%);
 }
