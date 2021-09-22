@@ -60,14 +60,30 @@ button:focus {
   float: right;
 }
 
+.windowtext{
+  color: hsl(212, 23%, 69%);
+  letter-spacing: 0.4em;
+  margin-top: 20px;
+  margin-left: 30px;
+
+}
+
+.iconfirst{
+  padding-left: 15px;
+}
+
+.icons{
+padding-right: 5px;
+}
+
 .window {
   position: absolute;
   z-index: 2;
-  left: 850px;
+  left: 840px;
   top: 160px;
-  background-color: purple;
-  width: 250px;
-  height: 50px;
+  background-color: hsl(217, 19%, 35%);
+  width: 230px;
+  height: 55px;
   border-radius: 10px;
 }
 
@@ -75,8 +91,10 @@ button:focus {
   display: block;
   height: 0;
   width: 0;
+  left: 110px;
+  top:55px;
   border: 12px solid transparent;
-  border-top-color: silver;
+  border-top-color: hsl(217, 19%, 35%);
   position: absolute;
 }
 
