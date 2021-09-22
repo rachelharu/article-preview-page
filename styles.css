@@ -63,9 +63,9 @@ button:focus{
   float: right;
 }
 
-.share:hover {
+ /* .sharehover {
   filter: brightness(0) invert(1);
-}
+} */
 
 
 .userprofile {

@@ -6,9 +6,18 @@ $('button').click(function()
 
 $('button').mouseover(function()
 {
-   $(".share").css("filter", "brightness(0) invert(1)" );
-})
+   $('.share').css("filter", "brightness(0) invert(1)" );
+});
 
+$('button').mouseout(function()
+{
+  $('.share').css("filter", "");
+});
 
-
-// filter: brightness(0) invert(1);
+//
+// $('button').mouseover(function()
+// {
+//   $('.share').addClass(".sharehover");
+// }).mouseout(function(){
+//   $('.share').removeClass(".sharehover");
+// });
