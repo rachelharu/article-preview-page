@@ -25,13 +25,13 @@ h3 {
   color: hsl(217, 19%, 35%);
 }
 
-button{
+button {
   border: 0;
-  outline:0;
+  outline: 0;
 }
 
-button:focus{
-  outline: 0 ;
+button:focus {
+  outline: 0;
 }
 
 .circle {
@@ -50,11 +50,8 @@ button:focus{
 }
 
 .circle:hover {
-
   background: hsl(214, 17%, 51%);
-
 }
-
 
 .share {
   z-index: 2;
@@ -63,10 +60,25 @@ button:focus{
   float: right;
 }
 
- /* .sharehover {
-  filter: brightness(0) invert(1);
-} */
+.window {
+  position: absolute;
+  z-index: 2;
+  left: 850px;
+  top: 160px;
+  background-color: purple;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+}
 
+.triangle {
+  display: block;
+  height: 0;
+  width: 0;
+  border: 12px solid transparent;
+  border-top-color: silver;
+  position: absolute;
+}
 
 .userprofile {
   padding-left: 50px;
@@ -80,6 +92,8 @@ button:focus{
 }
 
 .container {
+  z-index: 1;
+  position: relative;
   overflow: hidden;
   width: 700px;
   height: 240px;
@@ -97,7 +111,8 @@ button:focus{
 
 .textcol {
   background-color: white;
-  right: 90px;  /* 110px */
+  right: 90px;
+  /* 110px */
   margin-right: -50px !important;
 }
 
@@ -120,6 +135,5 @@ button:focus{
 .date {
   color: hsl(212, 23%, 69%);
 }
-
 
 /* javascript button stylings */
