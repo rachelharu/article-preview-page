@@ -1,8 +1,9 @@
+document.getElementById('popup').style.visibility = "hidden";
 
-$('button').click(function()
-{
-     console.log('itworks');
-});
+// $('button').click(function()
+// {
+//      console.log('itworks');
+// });
 
 $('button').mouseover(function()
 {
@@ -14,10 +15,8 @@ $('button').mouseout(function()
   $('.share').css("filter", "");
 });
 
-//
-// $('button').mouseover(function()
-// {
-//   $('.share').addClass(".sharehover");
-// }).mouseout(function(){
-//   $('.share').removeClass(".sharehover");
-// });
+
+
+$('button').click(function()
+{ document.getElementById('popup').style.visibility = "visible";
+});
