@@ -55,12 +55,12 @@ button:focus {
   background: hsl(214, 17%, 51%);
 }
 
-.share {
+/* .share {
   z-index: 2;
   position: relative;
   margin-top: -35px;
   float: right;
-}
+} */
 
 
 /* share pop up window */
@@ -81,11 +81,10 @@ button:focus {
 padding-right: 5px;
 }
 
-.window {
-  display: flex;
+ #popup {
+  display: none;
   position: absolute;
-
-  z-index: 5000;
+  z-index: 5000 !important;
   left: 60%;
   top: 160px;
   background-color: hsl(217, 19%, 35%);

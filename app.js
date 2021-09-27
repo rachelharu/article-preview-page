@@ -1,4 +1,4 @@
-document.getElementById('popup').style.visibility = "hidden";
+// document.getElementById('popup').style.visibility = "hidden";
 
 // $('button').click(function()
 // {
@@ -16,7 +16,12 @@ $('button').mouseout(function()
 });
 
 
+//
+// $('button').click(function()
+// { document.getElementById('popup').style.visibility = "visible";
+// });
 
-$('button').click(function()
-{ document.getElementById('popup').style.visibility = "visible";
+
+$("button").click(function(){
+    $("#popup").toggle();
 });
