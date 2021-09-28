@@ -16,11 +16,6 @@ $('button').mouseout(function()
 });
 
 
-//
-// $('button').click(function()
-// { document.getElementById('popup').style.visibility = "visible";
-// });
-
 
 $("button").click(function(){
     $("#popup").toggle();
