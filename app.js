@@ -1,35 +1,44 @@
-// document.getElementById('popup').style.visibility = "hidden";
+// document.getElementById('popup').style.visibility = "visible";
 
 // $('button').click(function()
 // {
 //      console.log('itworks');
 // });
 
+let btn = $('button');
+let socials = $("#popup");
 
+let theDiv = document.getElementById("btnclick");
+let content = document.createTextNode('<button class="circle"><img class="share" src="images/icon-share.svg"></button>');
 
-
-$('button').mouseover(function()
+btn.mouseover(function()
 {
    $('.share').css("filter", "brightness(0) invert(1)" );
 });
 
-$('button').mouseout(function()
+btn.mouseout(function()
 {
   $('.share').css("filter", "");
 });
 
 
-
-$("button").click(function(){
-    $("#popup").toggle();
+btn.click(function(){
+    socials.toggle();
+    theDiv.appendChild(content);
 });
 
 
-if ($(window).width() < 650) {
 
-   alert('Less than 650');
 
-}
-else {
-   alert('More than 960');
-};
+
+// if ($(window).width() < 650) {
+//
+//
+//
+//    alert('Less than 650');
+//
+//
+// }
+// else {
+//    alert('More than 960');
+// }
