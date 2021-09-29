@@ -38,7 +38,6 @@ button:focus {
   z-index: 1;
   position: absolute;
   float: right;
-  /* display: block; */
   background: hsl(210, 46%, 95%);
   border-radius: 50%;
   height: 30px;
@@ -72,7 +71,7 @@ button:focus {
 #popup {
   display: none;
   position: absolute;
-  z-index: 5000 !important;
+  z-index: 5 !important;
   left: 60%;
   top: 160px;
   background-color: hsl(217, 19%, 35%);
@@ -105,9 +104,7 @@ button:focus {
   margin-right: 10px;
 }
 
-/* .wrapper {
-  overflow:hidden;
-} */
+
 .container {
   z-index: 1;
   position: relative;
@@ -198,10 +195,28 @@ button:focus {
     padding-top: 10px;
     padding-bottom: 20px;
     left: 280px;
+
   }
 
   .userprofile{
     margin-top: 80px;
+  }
+
+  #popup {
+    width: 350px;
+    height: 65px;
+    top: 585px;
+    left: 68px;
+    padding-left: 5px;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .triangle{
+    display: hidden;
+  }
+
+  .windowtext{
+    margin-top: 25px;
   }
 
 }
