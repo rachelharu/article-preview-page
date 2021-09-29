@@ -5,6 +5,9 @@
 //      console.log('itworks');
 // });
 
+
+
+
 $('button').mouseover(function()
 {
    $('.share').css("filter", "brightness(0) invert(1)" );
@@ -20,3 +23,13 @@ $('button').mouseout(function()
 $("button").click(function(){
     $("#popup").toggle();
 });
+
+
+if ($(window).width() < 650) {
+
+   alert('Less than 650');
+
+}
+else {
+   alert('More than 960');
+};
