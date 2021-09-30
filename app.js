@@ -1,15 +1,15 @@
-// document.getElementById('popup').style.visibility = "visible";
-
-// $('button').click(function()
-// {
-//      console.log('itworks');
-// });
 
 let btn = $('button');
 let socials = $("#popup");
 
-let theDiv = document.getElementById("btnclick");
-let content = document.createTextNode('<button class="circle"><img class="share" src="images/icon-share.svg"></button>');
+let theDiv = document.getElementById("btnshare");
+
+let content = document.createElement('button');
+content.setAttribute('class', 'circle');
+let img = document.createElement('img');
+img.setAttribute('src', 'images/icon-share.svg');
+
+
 
 btn.mouseover(function()
 {
@@ -24,21 +24,19 @@ btn.mouseout(function()
 
 btn.click(function(){
     socials.toggle();
-    theDiv.appendChild(content);
 });
 
 
+content.click(function(){
+    socials.toggle();
+});
 
 
+if ($(window).width() < 650) {
+  theDiv.appendChild(content);
+  theDiv.appendChild(img);
 
-// if ($(window).width() < 650) {
-//
-//
-//
-//    alert('Less than 650');
-//
-//
-// }
-// else {
-//    alert('More than 960');
-// }
+}
+else {
+   console.log('More than 960');
+}
